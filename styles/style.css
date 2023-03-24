@@ -1,0 +1,112 @@
+@font-face {
+    font-family: bpg_ghalo;
+    src: url(../assets/fonts/bpg_glaho.ttf);
+}
+
+@font-face {
+    font-family: arial_geo;
+    src: url(../assets/fonts/arial_geo.ttf);
+}
+
+header {
+    font-family: bpg_ghalo;
+    font-size: 32px;
+    background-color:#8BE8F5;
+}
+
+.logo, nav {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 43.9px;
+    padding-bottom: 53.33px;
+}
+
+nav {
+    width: 72%;
+    text-align: right;
+    margin-right: 119px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+.logo {
+    margin-left: 118px;
+}
+
+.logo img {
+    display: inline-block;
+    width: 150px;
+    height: 47.77px;
+}
+.siaxleebi, .kontaqti {
+    color: #FFEF5E;
+}
+
+.mtavari {
+    color: #F90909;
+}
+
+.siaxleebi, .mtavari {
+    margin-right: 52px;
+}
+
+.text {
+    padding-left: 118px;
+    padding-right: 119px;
+    background-color: rgba(242, 155, 244, 0.37);
+}
+
+h1 {
+    color: #750606;
+    font-family: bpg_ghalo;
+    font-size: 32px;
+    padding-top:28px;
+}
+
+p {
+    font-family: arial_geo;
+    color: #410E0E;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 33px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.boxes {
+    margin-top: 70px;
+    margin-left: 118px;
+    margin-right: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.computers {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-family: arial_geo;
+    font-weight: 400;
+    font-size: 24px;
+    color: #EE4036;
+    margin-top: 28px;
+}
+
+footer {
+    margin-top: 70px;
+    background-color: #FFEF5E;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
